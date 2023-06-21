@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F3F0F7"
+    android:orientation="vertical"
+    tools:context=".Venta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/regresa"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:onClick="Regresa"
+            app:srcCompat="@drawable/back"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="Seiko Sport"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Dietas"
+                            android:textAlignment="center"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Una dieta saludable es clave para tratar la hipercolesterolemia familiar y prevenir la aterosclerosis. Además de reducir los niveles de colesterol y triglicéridos, una nutrición adecuada también tiene otros efectos beneficiosos sobre las paredes de los vasos sanguíneos. Puede ayudar a reducir los efectos dañinos de la oxidación, disminuir la presión arterial y la resistencia a la insulina. A continuación te mostraremos lo siguiente para que lo tengas en cuenta en tus dietas."
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Aceite de oliva como grasa principal"
+                            android:textAlignment="center"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="380dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/aceite" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="El aceite de oliva es un tipo de aceite vegetal que se obtiene a partir de las aceitunas, frutos del olivo (Olea europaea). Es conocido por ser uno de los aceites más saludables y se utiliza ampliamente en la cocina mediterránea.
+
+El aceite de oliva virgen extra, considerado el de mayor calidad, se obtiene mediante un proceso de extracción en frío de las aceitunas, lo que permite preservar sus propiedades nutricionales y su sabor característico. Es rico en ácidos grasos monoinsaturados, especialmente en ácido oleico, que se asocia con beneficios para la salud cardiovascular.
+
+Además de su uso culinario, el aceite de oliva también se utiliza en la industria cosmética y para la elaboración de productos de cuidado personal. Es apreciado por sus propiedades hidratantes y suavizantes para la piel y el cabello.
+
+En resumen, el aceite de oliva es un producto natural, saludable y versátil que se utiliza tanto en la cocina como en el cuidado personal, y es considerado un pilar fundamental de la dieta mediterránea."
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Lácteos desnatados"
+                            android:textAlignment="center"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="380dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/lacteos" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Los lácteos desnatados son productos lácteos que han sido sometidos a un proceso de desnatado, es decir, se les ha eliminado la mayor parte de la grasa presente en su composición. Estos productos son ampliamente utilizados por personas que buscan reducir su consumo de grasa o mantener una alimentación más ligera.
+
+Los lácteos desnatados incluyen leche desnatada, yogur desnatado, queso desnatado y otros derivados lácteos en los que se ha eliminado gran parte de la grasa original."
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#fff"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Evitar grasas saturadas"
+                            android:textAlignment="center"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView12"
+                            android:layout_width="380dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            app:srcCompat="@drawable/grasas" />
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Evitar las grasas saturadas es una elección saludable para mantener una dieta equilibrada y reducir el riesgo de enfermedades cardiovasculares. Las grasas saturadas se encuentran principalmente en alimentos de origen animal, como carnes grasas, productos lácteos enteros, mantequilla y algunos aceites vegetales como el aceite de coco y el aceite de palma."
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
